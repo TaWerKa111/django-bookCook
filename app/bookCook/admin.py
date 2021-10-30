@@ -10,6 +10,7 @@ from .models import Ingredient, Recipe
 class RecipeAdmin(admin.ModelAdmin):
     list_display = [
         'name',
+        'description',
         'text',
         'cooking_time',
         'type_of_kitchen',

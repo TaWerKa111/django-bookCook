@@ -2,10 +2,20 @@
 {% load static %}
 
 {% block form %}
-    <form class="js-form">
-        {% include 'bookCook/select_form.html' with id='recipe_id' title=form.recipe.name subjects=form.recipe.objects subject_selected=form.recipe.selected %}
-        {% include 'bookCook/select_form.html' with id='ingredient_id' title=form.ingredient.name subjects=form.ingredient.objects subject_selected=form.ingredient.selected %}
-    </form>
+<section class="jumbotron p-4 text-center">
+    <div class="container">
+        <h1 class="jumbotron-heading">Каталог рецептов</h1>
+        <p class="lead text-muted">{{ form.description }}</p>
+        <div class="row">
+            <div class="col-md-12">
+               <form class="js-form">
+                {% include 'bookCook/select_form.html' with id='recipe_id' title=form.recipe.name subjects=form.recipe.objects subject_selected=form.recipe.selected %}
+                {% include 'bookCook/select_form.html' with id='ingredient_id' title=form.ingredient.name subjects=form.ingredient.objects subject_selected=form.ingredient.selected %}
+            </form>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}
 
 
@@ -15,7 +25,7 @@
             {% include 'bookCook/none_info.html' %}
         {% endif %}
         {% for recipe in recipes %}
-            <h2>{{ recipe }}</h2>
+            <h2><a href="{% url 'recipe_detail' pk=recipe.pk %}">{{ recipe }}</a></h2>
             <table class="table table-hover js-table">
                 <colgroup>
                     <col style="width: 15%;">
@@ -35,8 +45,8 @@
                 <tbody>
                     <tr>
                     <td>{{ recipe.name }}</td>
-                    <td>{{ recipe.text }}</td>
-                    <td>{{ recipe.cooking_time }}</td>
+                    <td>{{ recipe.description }}</td>
+                    <td>{{ recipe.cooking_time }} мин</td>
                     <td>{{ recipe.type_of_kitchen }}</td>
                     <td>{{ recipe.ingredients.all|join:", " }}</td>
                 </tr>

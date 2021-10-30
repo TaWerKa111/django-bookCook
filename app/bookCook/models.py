@@ -29,8 +29,10 @@ class Ingredient(TimeStampMixin):
 
 
 class Recipe(TimeStampMixin):
-    """ Рецепт """
+    """ Рецепт.
+        Время приготовления в минутах """
     name = models.CharField('Назвение', max_length=40, null=False)
+    description = models.CharField('Описание', max_length=255, null=False)
     text = models.TextField('Описание', null=False)
     cooking_time = models.IntegerField('Время приготовления', null=False)
     type_of_kitchen = models.CharField("Тип кухни", max_length=40, null=False)

@@ -1,8 +1,19 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.db.models import Q
 from django.urls import reverse
-from .models import  Ingredient, Recipe
+from .models import Ingredient, Recipe
 # Create your views here.
+
+
+def recipe_detail(request, pk):
+    """ Полная информация по рецепту с пошаговой инструкцией """
+    recipe = get_object_or_404(Recipe, pk=pk)
+    recipe.recipe_text = recipe.text.strip().split('\n')
+    return render(
+        request,
+        'bookCook/recipe_detail.html',
+        {'recipe': recipe}
+    )
 
 
 def home(request):
@@ -39,6 +50,7 @@ def home(request):
         {
         'recipes': recipes_object,
         'form': {
+            'description': "Здесь вы можете ввести название рецепта или ингредиента",
             'ingredient': {
                 'name': 'Ингредиент',
                 'objects': ingredients,

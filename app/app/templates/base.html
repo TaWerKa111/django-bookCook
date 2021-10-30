@@ -23,17 +23,8 @@
 </header>
 
 <main role="main">
-    <section class="jumbotron p-4 text-center">
-        <div class="container">
-            <h1 class="jumbotron-heading">Каталог рецептов</h1>
-            <p class="lead text-muted">{{ form.description }}</p>
-            <div class="row">
-                <div class="col-md-12">
-                    {% block form %}{% endblock %}
-                </div>
-            </div>
-        </div>
-    </section>
+    {% block form %}
+    {% endblock %}
     {% block content %}
     {% endblock %}
 </main>

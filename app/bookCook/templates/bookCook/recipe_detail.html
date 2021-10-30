@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="text-center">{{ recipe.name }}</h1>
+    <h3 class="text-center"> Пошаговый рецепт </h3>
+    <div class="container">
+        <div class="row justify-content-center">
+            <ol>
+            {% for step in recipe.recipe_text %}
+                <li class="h4">{{ step }}</li>
+            {% endfor %}
+            </ol>
+        </div>
+    </div>
+{% endblock %}
