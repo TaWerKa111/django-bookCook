@@ -1,0 +1,209 @@
+[
+  {
+    "model": "bookCook.ingredient",
+    "pk": 1,
+    "fields": {
+      "name": "Лук репчатый",
+      "created_at": "2020-05-27 01:48:14.992277+03:00",
+      "updated_at": "2020-05-27 01:48:14.992277+03:00"
+    }
+  },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 2,
+      "fields": {
+        "name": "Мясо",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 3,
+      "fields": {
+        "name": "Масло растительное",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 4,
+      "fields": {
+        "name": "Мука",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 5,
+      "fields": {
+        "name": "Яйца",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 6,
+      "fields": {
+        "name": "Перец",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 7,
+      "fields": {
+        "name": "Кабачки",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 8,
+      "fields": {
+        "name": "Помидоры",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 9,
+      "fields": {
+        "name": "Морковь",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 10,
+      "fields": {
+        "name": "Чеснок",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 11,
+      "fields": {
+        "name": "Соль",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 12,
+      "fields": {
+        "name": "Сахар",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 14,
+      "fields": {
+        "name": "Лук репчатый",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 15,
+      "fields": {
+        "name": "Вода",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 16,
+      "fields": {
+        "name": "Крупа кукурузная",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 17,
+      "fields": {
+        "name": "Фарш мясной",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 18,
+      "fields": {
+        "name": "Хлеб белый",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 19,
+      "fields": {
+        "name": "Пшено",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 20,
+      "fields": {
+        "name": "Молоко",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 21,
+      "fields": {
+        "name": "Гречка",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 22,
+      "fields": {
+        "name": "Томатная паста",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 23,
+      "fields": {
+        "name": "Петрушка",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    },
+  {
+      "model": "bookCook.ingredient",
+      "pk": 24,
+      "fields": {
+        "name": "Картофель",
+        "created_at": "2020-05-27 01:48:14.992277+03:00",
+        "updated_at": "2020-05-27 01:48:14.992277+03:00"
+      }
+    }
+]
